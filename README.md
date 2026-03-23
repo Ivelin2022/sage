@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19192937.svg)](https://doi.org/10.5281/zenodo.19192937)
+
 # SAGE: Spatial Associative Geometric Embeddings
 
 **Memory for All** — a weight-free geometric memory architecture.
