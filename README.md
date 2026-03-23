@@ -8,7 +8,7 @@ Paper: Memory for All: SAGE — Spatial Associative Geometric Embeddings (Likov,
 
 **arXiv link will be added after patent filing and submission.**
 
-GitHub: https://github.com/ivelinlikov/sage
+GitHub: https://github.com/Ivelin2022/sage
 
 ## What is SAGE?
 
@@ -67,7 +67,7 @@ python glove_delta_v2_fast.py
   title  = {Memory for All: SAGE — Spatial Associative Geometric Embeddings},
   author = {Likov, Ivelin},
   year   = {2026},
-  url    = {https://github.com/ivelinlikov/sage}
+  url    = {https://github.com/Ivelin2022/sage}
 }
 ```
 
