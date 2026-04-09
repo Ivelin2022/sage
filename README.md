@@ -46,6 +46,8 @@ Instead of storing knowledge in weight matrices, SAGE stores it as unit-norm emb
 | `test_8c_parallel_compose.py` | Parallel composition: NLerp vs Hopfield vs FHRR vs PoE |
 | `run_tests_8abc.py` | Runner for tests 8A/8B/8C |
 | `exp5_scaling_ablation.py` | Vertical vs horizontal scaling ablation |
+| `test_analogy_compare.py` | 4 conditions: GloVe vs nomic × Baseline vs SAGEDivided |
+| `test_analogy_v2.py` | 4 retrieval strategies: softmax / argmax / **two-stage** / oracle |
 
 ### Supporting files
 
@@ -79,6 +81,7 @@ Instead of storing knowledge in weight matrices, SAGE stores it as unit-norm emb
 | Forgetting under noise (V3) | Negative — system improves under 800 noise insertions |
 | Live demo (768d, 44 concepts) | Correct retrieval on 10/10 semantic queries |
 | Chain: "evolution of computing" | brain → neurons → Ada Lovelace (0.74 cosine) |
+| **Analogy (two-stage retrieval)** | **87.2% on 7,096 questions — 90% of GloVe oracle ceiling** |
 
 ---
 
