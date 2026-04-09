@@ -3,7 +3,7 @@ SpatialCube V3 — PyTorch GPU Version
 ======================================
 Author: Ivelin Likov
 
-V2 base + Force 5 (Langevin dynamics) — confirmed +20% cosine improvement in Test 7.
+V2 base + Force 6 (Langevin dynamics) — confirmed +20% cosine improvement in Test 7.
 
   Force 1 — Momentum
     Velocity buffer accumulates across steps — prevents oscillation.
@@ -19,7 +19,7 @@ V2 base + Force 5 (Langevin dynamics) — confirmed +20% cosine improvement in T
   Force 4 — Adaptive temperature
     Softmax sharpens from 0.3 → 0.05 over first 500 steps.
 
-  Force 5 — Langevin dynamics (NEW in V3)
+  Force 6 — Langevin dynamics (NEW in V3)
     Adds calibrated tangent-space Gaussian noise to active embedding updates.
     Proven theory: SGLD (Welling & Teh, ICML 2011).
     At equilibrium, samples Boltzmann distribution over Hebbian energy landscape.
@@ -208,7 +208,7 @@ class SpatialCubeV3Torch:
                             (self.embeddings[cohese] - self.embeddings[idx])).sum(0)
                         )
 
-        # Force 5: Langevin dynamics — tangent-space noise on active points
+        # Force 6: Langevin dynamics — tangent-space noise on active points
         # Adds calibrated Gaussian noise projected to the tangent plane at e_i.
         # Noise amplitude scales as sqrt(2*T/d) so rotation angle is
         # dimension-independent — same ~8° perturbation at 64d and 768d.
