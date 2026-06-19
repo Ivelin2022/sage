@@ -1,0 +1,109 @@
+{
+  "experiment": "forgetting_benchmark",
+  "dataset": "sklearn_digits",
+  "dim": 64,
+  "n_classes": 10,
+  "per_task": 2,
+  "n_orders": 7,
+  "n_slots": 100,
+  "summary": [
+    {
+      "method": "SGD-MLP",
+      "final_mean": 19.761904761904766,
+      "final_std": 0.1907699087547081,
+      "task0_mean": 0.0,
+      "task0_std": 0.0,
+      "adversarial_final": 19.444444444444446
+    },
+    {
+      "method": "Replay",
+      "final_mean": 87.43386243386244,
+      "final_std": 2.5990632996434146,
+      "task0_mean": 81.79974776824352,
+      "task0_std": 10.42151916758969,
+      "adversarial_final": 88.14814814814815
+    },
+    {
+      "method": "NCM",
+      "final_mean": 87.03703703703705,
+      "final_std": 1.4210854715202004e-14,
+      "task0_mean": 84.52483988229184,
+      "task0_std": 4.311439302374081,
+      "adversarial_final": 87.03703703703704
+    },
+    {
+      "method": "SAGE-flat",
+      "final_mean": 85.31746031746032,
+      "final_std": 1.2665300744535257,
+      "task0_mean": 84.10939934221915,
+      "task0_std": 8.706128875206486,
+      "adversarial_final": 83.7037037037037
+    },
+    {
+      "method": "SAGE-grid",
+      "final_mean": 35.50264550264551,
+      "final_std": 7.403910739324431,
+      "task0_mean": 6.163604441257202,
+      "task0_std": 9.324496857300932,
+      "adversarial_final": 30.185185185185187
+    }
+  ],
+  "per_order": [
+    {
+      "order": "rand0",
+      "SGD-MLP": 19.62962962962963,
+      "Replay": 88.70370370370371,
+      "NCM": 87.03703703703704,
+      "SAGE-flat": 86.48148148148148,
+      "SAGE-grid": 44.81481481481481
+    },
+    {
+      "order": "rand1",
+      "SGD-MLP": 20.0,
+      "Replay": 88.88888888888889,
+      "NCM": 87.03703703703704,
+      "SAGE-flat": 86.29629629629629,
+      "SAGE-grid": 25.185185185185183
+    },
+    {
+      "order": "rand2",
+      "SGD-MLP": 20.0,
+      "Replay": 83.51851851851852,
+      "NCM": 87.03703703703704,
+      "SAGE-flat": 85.18518518518519,
+      "SAGE-grid": 30.37037037037037
+    },
+    {
+      "order": "rand3",
+      "SGD-MLP": 19.814814814814817,
+      "Replay": 87.22222222222223,
+      "NCM": 87.03703703703704,
+      "SAGE-flat": 86.11111111111111,
+      "SAGE-grid": 31.48148148148148
+    },
+    {
+      "order": "rand4",
+      "SGD-MLP": 19.62962962962963,
+      "Replay": 91.48148148148148,
+      "NCM": 87.03703703703704,
+      "SAGE-flat": 86.29629629629629,
+      "SAGE-grid": 43.148148148148145
+    },
+    {
+      "order": "rand5",
+      "SGD-MLP": 19.814814814814817,
+      "Replay": 84.07407407407408,
+      "NCM": 87.03703703703704,
+      "SAGE-flat": 83.14814814814815,
+      "SAGE-grid": 43.333333333333336
+    },
+    {
+      "order": "adversarial",
+      "SGD-MLP": 19.444444444444446,
+      "Replay": 88.14814814814815,
+      "NCM": 87.03703703703704,
+      "SAGE-flat": 83.7037037037037,
+      "SAGE-grid": 30.185185185185187
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "experiment": "binding_real_v2",
+  "n_entities": 500,
+  "dim": 768,
+  "n_query": 3000,
+  "usable_bar": 70.0,
+  "capacity": {
+    "ideal": 32,
+    "shuffled": 32,
+    "real": 32
+  },
+  "stress_R": 32,
+  "correlation_cost_pp": 2.4016010673782517,
+  "note": "real vs SHUFFLED = correlation cost with matched marginals; unitary roles whiten noise so correlation hits cleanup not capacity; R=1 recovery is algebraically exact.",
+  "sweep": [
+    {
+      "mode": "ideal",
+      "R": 1,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0
+    },
+    {
+      "mode": "ideal",
+      "R": 2,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0
+    },
+    {
+      "mode": "ideal",
+      "R": 4,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0
+    },
+    {
+      "mode": "ideal",
+      "R": 8,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0
+    },
+    {
+      "mode": "ideal",
+      "R": 16,
+      "hop1": 100.0,
+      "hop2": 99.96662216288385,
+      "hop2_oracle": 99.96662216288385
+    },
+    {
+      "mode": "ideal",
+      "R": 32,
+      "hop1": 96.33333333333334,
+      "hop2": 93.62908605737158,
+      "hop2_oracle": 97.23148765843897
+    },
+    {
+      "mode": "ideal",
+      "R": 64,
+      "hop1": 66.16666666666666,
+      "hop2": 44.05080213903743,
+      "hop2_oracle": 67.37967914438502
+    },
+    {
+      "mode": "ideal",
+      "R": 128,
+      "hop1": 30.4,
+      "hop2": 8.778371161548732,
+      "hop2_oracle": 29.70627503337784
+    },
+    {
+      "mode": "ideal",
+      "R": 256,
+      "hop1": 10.966666666666667,
+      "hop2": 1.2012012012012012,
+      "hop2_oracle": 10.41041041041041
+    },
+    {
+      "mode": "shuffled",
+      "R": 1,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0
+    },
+    {
+      "mode": "shuffled",
+      "R": 2,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0
+    },
+    {
+      "mode": "shuffled",
+      "R": 4,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0
+    },
+    {
+      "mode": "shuffled",
+      "R": 8,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0
+    },
+    {
+      "mode": "shuffled",
+      "R": 16,
+      "hop1": 100.0,
+      "hop2": 99.96662216288385,
+      "hop2_oracle": 99.96662216288385
+    },
+    {
+      "mode": "shuffled",
+      "R": 32,
+      "hop1": 96.3,
+      "hop2": 92.19479653102069,
+      "hop2_oracle": 95.6971314209473
+    },
+    {
+      "mode": "shuffled",
+      "R": 64,
+      "hop1": 66.9,
+      "hop2": 43.54946524064171,
+      "hop2_oracle": 66.54411764705883
+    },
+    {
+      "mode": "shuffled",
+      "R": 128,
+      "hop1": 30.2,
+      "hop2": 8.945260347129507,
+      "hop2_oracle": 29.138851802403202
+    },
+    {
+      "mode": "shuffled",
+      "R": 256,
+      "hop1": 11.466666666666667,
+      "hop2": 0.8675342008675343,
+      "hop2_oracle": 11.11111111111111
+    },
+    {
+      "mode": "real",
+      "R": 1,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0
+    },
+    {
+      "mode": "real",
+      "R": 2,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0
+    },
+    {
+      "mode": "real",
+      "R": 4,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0
+    },
+    {
+      "mode": "real",
+      "R": 8,
+      "hop1": 99.93333333333332,
+      "hop2": 99.73306639973306,
+      "hop2_oracle": 99.93326659993326
+    },
+    {
+      "mode": "real",
+      "R": 16,
+      "hop1": 99.73333333333333,
+      "hop2": 99.56608811748998,
+      "hop2_oracle": 99.6995994659546
+    },
+    {
+      "mode": "real",
+      "R": 32,
+      "hop1": 94.5,
+      "hop2": 89.79319546364243,
+      "hop2_oracle": 95.130086724483
+    },
+    {
+      "mode": "real",
+      "R": 64,
+      "hop1": 63.23333333333333,
+      "hop2": 40.57486631016043,
+      "hop2_oracle": 63.93716577540107
+    },
+    {
+      "mode": "real",
+      "R": 128,
+      "hop1": 26.93333333333333,
+      "hop2": 8.578104138851803,
+      "hop2_oracle": 28.070761014686248
+    },
+    {
+      "mode": "real",
+      "R": 256,
+      "hop1": 10.299999999999999,
+      "hop2": 1.334668001334668,
+      "hop2_oracle": 10.243576910243576
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+  <rect x="4" y="4" width="792" height="452" rx="12" fill="#0e0e0e" stroke="#242424"/>
+  <circle cx="26" cy="24" r="6" fill="#ff5f56"/><circle cx="46" cy="24" r="6" fill="#ffbd2e"/><circle cx="66" cy="24" r="6" fill="#27c93f"/>
+  <text x="92" y="29" font-size="13" fill="#8a8a8a">demo2_drone.py  —  SAGE Drone Agent (graceful degradation)</text>
+  <line x1="4" y1="44" x2="796" y2="44" stroke="#242424"/>
+  <g font-size="13.5">
+    <text x="28" y="84" fill="#ff7043" font-weight="700">  *** CONNECTION TO GROUND STATION LOST — LLM OFFLINE ***</text>
+    <text x="28" y="124"><tspan fill="#d8dde1">STEP  9   </tspan><tspan fill="#ff7043">[LLM: OFF]</tspan></text>
+    <text x="28" y="150" fill="#d8dde1">  OBSERVE : Obstacle detected on the current flight path.</text>
+    <text x="28" y="176" fill="#9a6cff">  RECALL  : 0.68  <tspan fill="#6b7177">ASCEND 5m and bank right to reroute</tspan></text>
+    <text x="28" y="202"><tspan fill="#d8dde1">  DECIDE  : </tspan><tspan fill="#ffd166">ASCEND 5m and bank right to reroute</tspan><tspan fill="#6b7177">   (12ms, SAGE — no LLM)</tspan></text>
+    <text x="28" y="244" fill="#27c93f">  Default "give up" decisions: 0   <tspan fill="#6b7177">&lt;- the agent never stopped</tspan></text>
+    <text x="28" y="270" fill="#6b7177">  Avg LLM decision 7.49s   vs   SAGE decision 12ms</text>
+  </g>
+  <circle cx="744" cy="358" r="22" fill="#000000" opacity="0.5"/>
+  <circle cx="744" cy="358" r="22" fill="none" stroke="#26c6da" stroke-width="1.5"/>
+  <path d="M737 347 L758 358 L737 369 Z" fill="#26c6da"/>
+  <line x1="4" y1="404" x2="796" y2="404" stroke="#242424"/>
+  <text x="28" y="432" font-size="15" font-weight="700" fill="#26c6da">Case study 2 — Drone agent: graceful degradation</text>
+  <text x="28" y="449" font-size="12" fill="#8a8a8a">The connection drops mid-mission; the agent flies on SAGE memory, zero defaults.</text>
+</svg>

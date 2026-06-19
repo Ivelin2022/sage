@@ -1,0 +1,108 @@
+{
+  "experiment": "agent_memory",
+  "n_keys": 500,
+  "t_writes": 4000,
+  "val_vocab": 200,
+  "dim": 768,
+  "demo_B": 500,
+  "db_unbounded_acc": 100.0,
+  "db_unbounded_footprint": 4000,
+  "sweep": [
+    {
+      "method": "SAGE-flat",
+      "B": 128,
+      "acc": 25.6,
+      "footprint": 128
+    },
+    {
+      "method": "DB-dedup",
+      "B": 128,
+      "acc": 26.0,
+      "footprint": 128
+    },
+    {
+      "method": "DB-fifo",
+      "B": 128,
+      "acc": 22.8,
+      "footprint": 128
+    },
+    {
+      "method": "SAGE-grid",
+      "B": 128,
+      "acc": 7.000000000000001,
+      "footprint": 126
+    },
+    {
+      "method": "SAGE-flat",
+      "B": 256,
+      "acc": 51.2,
+      "footprint": 256
+    },
+    {
+      "method": "DB-dedup",
+      "B": 256,
+      "acc": 51.4,
+      "footprint": 256
+    },
+    {
+      "method": "DB-fifo",
+      "B": 256,
+      "acc": 40.8,
+      "footprint": 256
+    },
+    {
+      "method": "SAGE-grid",
+      "B": 256,
+      "acc": 7.6,
+      "footprint": 225
+    },
+    {
+      "method": "SAGE-flat",
+      "B": 500,
+      "acc": 100.0,
+      "footprint": 500
+    },
+    {
+      "method": "DB-dedup",
+      "B": 500,
+      "acc": 100.0,
+      "footprint": 500
+    },
+    {
+      "method": "DB-fifo",
+      "B": 500,
+      "acc": 63.2,
+      "footprint": 500
+    },
+    {
+      "method": "SAGE-grid",
+      "B": 500,
+      "acc": 7.8,
+      "footprint": 311
+    },
+    {
+      "method": "SAGE-flat",
+      "B": 1000,
+      "acc": 100.0,
+      "footprint": 500
+    },
+    {
+      "method": "DB-dedup",
+      "B": 1000,
+      "acc": 100.0,
+      "footprint": 500
+    },
+    {
+      "method": "DB-fifo",
+      "B": 1000,
+      "acc": 86.0,
+      "footprint": 1000
+    },
+    {
+      "method": "SAGE-grid",
+      "B": 1000,
+      "acc": 5.0,
+      "footprint": 395
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "experiment": "binding_multihop",
+  "n_entities": 500,
+  "n_query": 3000,
+  "prior_traversal_pct": 62.0,
+  "best_regime": {
+    "D": 2048,
+    "R": 32,
+    "hop1": 100.0,
+    "hop2": 100.0,
+    "hop2_oracle": 100.0,
+    "expected_hop2": 100.0
+  },
+  "sweep": [
+    {
+      "D": 512,
+      "R": 1,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 512,
+      "R": 2,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 512,
+      "R": 4,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 512,
+      "R": 8,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 512,
+      "R": 16,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 512,
+      "R": 32,
+      "hop1": 99.4,
+      "hop2": 98.7,
+      "hop2_oracle": 99.36666666666667,
+      "expected_hop2": 98.80360000000003
+    },
+    {
+      "D": 1024,
+      "R": 1,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 1024,
+      "R": 2,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 1024,
+      "R": 4,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 1024,
+      "R": 8,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 1024,
+      "R": 16,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 1024,
+      "R": 32,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 2048,
+      "R": 1,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 2048,
+      "R": 2,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 2048,
+      "R": 4,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 2048,
+      "R": 8,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 2048,
+      "R": 16,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    },
+    {
+      "D": 2048,
+      "R": 32,
+      "hop1": 100.0,
+      "hop2": 100.0,
+      "hop2_oracle": 100.0,
+      "expected_hop2": 100.0
+    }
+  ]
+}

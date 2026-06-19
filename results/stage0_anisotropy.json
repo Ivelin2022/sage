@@ -1,0 +1,20 @@
+{
+  "stage": 0,
+  "model": "nomic-embed-text",
+  "n_words": 3000,
+  "n_dims": 768,
+  "n_pairs": 9995,
+  "n_failed_embeds": 0,
+  "norm_mean": 1.0000000037997416,
+  "norm_std": 1.9303254121554708e-07,
+  "mean_cosine": 0.43369244136202356,
+  "mean_abs_cosine": 0.43369244136202356,
+  "cosine_std": 0.054683371356892864,
+  "cosine_min": 0.2454084291362136,
+  "cosine_max": 0.9465588163137844,
+  "mean_vector_norm": 0.6584726201256874,
+  "top1_pc_variance": 0.02262271608919952,
+  "top5_pc_variance": 0.0776078274523942,
+  "anisotropy_level": "HIGH",
+  "advice": "Severe anisotropy - composition failure (8A/9C) confirmed to live in the EMBEDDINGS. Stage 2 REQUIRED; sphere fixes the metric, NOT composition; graph traversal is the fix."
+}

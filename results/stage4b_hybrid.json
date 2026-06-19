@@ -1,0 +1,27 @@
+{
+  "stage": "4b",
+  "outcome": "HYBRID MIXED: B (greedy traversal) is best (+8.8 vs A); restricted arithmetic alone does NOT help (A_r2 +0.0) - gain entangled with re-grounding",
+  "k_cand": 50,
+  "beam": 5,
+  "results": {
+    "isotropic": {
+      "n": 34,
+      "A_pct": 61.76470588235294,
+      "Ar2_pct": 61.76470588235294,
+      "B_pct": 70.58823529411765,
+      "Beam_pct": 64.70588235294117
+    },
+    "raw": {
+      "n": 34,
+      "A_pct": 58.8235294117647,
+      "Ar2_pct": 58.8235294117647,
+      "B_pct": 64.70588235294117,
+      "Beam_pct": 70.58823529411765
+    }
+  },
+  "deltas_isotropic": {
+    "Ar2_minus_A": 0.0,
+    "Beam_minus_B": -5.882352941176478,
+    "best_minus_A": 8.82352941176471
+  }
+}

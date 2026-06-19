@@ -1,0 +1,58 @@
+{
+  "experiment": "killshot_c_relationbank",
+  "n_pairs": 259,
+  "n_relations": 8,
+  "relations": [
+    "capital-common-countries",
+    "capital-world",
+    "family",
+    "gram3-comparative",
+    "gram5-present-participle",
+    "gram6-nationality-adjective",
+    "gram7-past-tense",
+    "gram8-plural"
+  ],
+  "dim": 768,
+  "n_seeds": 15,
+  "sage_minus_matched_ari": -0.032274597137737504,
+  "ari_diff_ci": [
+    -0.10716517943642505,
+    0.061212450622278564
+  ],
+  "best_standard_ari": 0.5764174258160196,
+  "ari_syn": 1.0,
+  "ari_sem": 0.2737856803216092,
+  "survives": false,
+  "scores": {
+    "SAGE-bank": {
+      "ari_mean": 0.512210571343695,
+      "ari_std": 0.06792959561976612,
+      "ari_min": 0.37049788897892605,
+      "ari_max": 0.5886951273020856
+    },
+    "online-sph-kmeans": {
+      "ari_mean": 0.5444851684814325,
+      "ari_std": 0.0429463460022411,
+      "ari_min": 0.4634228673716072,
+      "ari_max": 0.603164002524505
+    },
+    "kmeans-euclid": {
+      "ari_mean": 0.4599564719273351,
+      "ari_std": 0.06403423665569703,
+      "ari_min": 0.32495064042847305,
+      "ari_max": 0.5865549167168633
+    },
+    "minibatch-kmeans": {
+      "ari_mean": 0.44593166732312645,
+      "ari_std": 0.05896709351812463,
+      "ari_min": 0.38561812989131933,
+      "ari_max": 0.5711057646766518
+    },
+    "agglom-ward": {
+      "ari_mean": 0.5764174258160196,
+      "ari_std": 0.0,
+      "ari_min": 0.5764174258160196,
+      "ari_max": 0.5764174258160196
+    }
+  }
+}

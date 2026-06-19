@@ -1,0 +1,49 @@
+<svg viewBox="0 0 800 470" xmlns="http://www.w3.org/2000/svg" font-family="ui-sans-serif, system-ui, Arial">
+  <rect width="800" height="470" fill="#ffffff"/>
+  <text x="400" y="30" text-anchor="middle" fill="#111111" font-size="19" font-weight="700">SAGE matches standard methods &#8212; it does not beat them</text>
+  <text x="400" y="50" text-anchor="middle" fill="#555555" font-size="12">Final accuracy, class-incremental MNIST (PCA-64, mean of 7 task orderings)</text>
+  <g font-size="11" fill="#444444">
+    <rect x="148" y="60" width="11" height="11" rx="2" fill="#9a9a9a"/><text x="163" y="70">Neural (backprop)</text>
+    <rect x="280" y="60" width="11" height="11" rx="2" fill="#1f9bd1"/><text x="295" y="70">Non-parametric baseline</text>
+    <rect x="448" y="60" width="11" height="11" rx="2" fill="#109aa6"/><text x="463" y="70">SAGE (payload)</text>
+    <rect x="558" y="60" width="11" height="11" rx="2" fill="#ef6a3d"/><text x="573" y="70">SAGE-grid (3-D geometry)</text>
+  </g>
+  <g font-size="10" fill="#888888">
+    <line x1="90" y1="410" x2="780" y2="410" stroke="#cccccc"/>
+    <line x1="90" y1="342" x2="780" y2="342" stroke="#ececec"/><text x="82" y="345" text-anchor="end">20</text>
+    <line x1="90" y1="274" x2="780" y2="274" stroke="#ececec"/><text x="82" y="277" text-anchor="end">40</text>
+    <line x1="90" y1="206" x2="780" y2="206" stroke="#ececec"/><text x="82" y="209" text-anchor="end">60</text>
+    <line x1="90" y1="138" x2="780" y2="138" stroke="#ececec"/><text x="82" y="141" text-anchor="end">80</text>
+    <line x1="90" y1="70"  x2="780" y2="70"  stroke="#ececec"/><text x="82" y="73"  text-anchor="end">100</text>
+    <text x="82" y="413" text-anchor="end">0</text>
+  </g>
+  <text x="26" y="240" text-anchor="middle" fill="#555555" font-size="12" transform="rotate(-90 26 240)">final accuracy after all tasks (%)</text>
+  <line x1="90" y1="101.3" x2="780" y2="101.3" stroke="#1f9bd1" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text x="778" y="96" text-anchor="end" fill="#1f7fae" font-size="11" font-style="italic">best baseline &#8212; per-class k-means (90.8)</text>
+  <g>
+    <rect x="109.3" y="343.0" width="60" height="67.0" rx="3" fill="#9a9a9a"/>
+    <text x="139.3" y="336" text-anchor="middle" fill="#111111" font-size="13" font-weight="700">19.7</text>
+    <rect x="207.9" y="128.1" width="60" height="281.9" rx="3" fill="#9a9a9a"/>
+    <text x="237.9" y="121" text-anchor="middle" fill="#111111" font-size="13" font-weight="700">82.9</text>
+    <rect x="306.5" y="139.0" width="60" height="271.0" rx="3" fill="#1f9bd1"/>
+    <text x="336.5" y="132" text-anchor="middle" fill="#111111" font-size="13" font-weight="700">79.7</text>
+    <rect x="405.1" y="101.3" width="60" height="308.7" rx="3" fill="#1f9bd1"/>
+    <text x="435.1" y="94" text-anchor="middle" fill="#111111" font-size="13" font-weight="700">90.8</text>
+    <rect x="503.7" y="221.6" width="60" height="188.4" rx="3" fill="#109aa6"/>
+    <text x="533.7" y="214" text-anchor="middle" fill="#111111" font-size="13" font-weight="700">55.4</text>
+    <rect x="602.3" y="116.9" width="60" height="293.1" rx="3" fill="#109aa6"/>
+    <text x="632.3" y="110" text-anchor="middle" fill="#111111" font-size="13" font-weight="700">86.2</text>
+    <rect x="700.9" y="348.5" width="60" height="61.5" rx="3" fill="#ef6a3d"/>
+    <text x="730.9" y="341" text-anchor="middle" fill="#111111" font-size="13" font-weight="700">18.1</text>
+  </g>
+  <g font-size="10.5" fill="#555555" text-anchor="middle">
+    <text x="139.3" y="426">SGD-MLP</text>
+    <text x="237.9" y="426">Replay</text>
+    <text x="336.5" y="426">NCM</text>
+    <text x="435.1" y="426">NCM-multi</text>
+    <text x="533.7" y="426">SAGE-flat</text>
+    <text x="632.3" y="426">SAGE-pc</text>
+    <text x="730.9" y="426">SAGE-grid</text>
+  </g>
+  <text x="400" y="456" text-anchor="middle" fill="#777777" font-size="11">SAGE beats neural nets on forgetting, but a storage-matched per-class k-means beats SAGE; the 3-D geometry collapses.</text>
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+  <rect x="4" y="4" width="792" height="452" rx="12" fill="#0e0e0e" stroke="#242424"/>
+  <circle cx="26" cy="24" r="6" fill="#ff5f56"/><circle cx="46" cy="24" r="6" fill="#ffbd2e"/><circle cx="66" cy="24" r="6" fill="#27c93f"/>
+  <text x="92" y="29" font-size="13" fill="#8a8a8a">demo3_continual.py  —  Continual learning, no retraining</text>
+  <line x1="4" y1="44" x2="796" y2="44" stroke="#242424"/>
+  <g font-size="13.5">
+    <text x="28" y="86" fill="#6b7177">  taught 8 new facts live  (footprint 8, nothing retrained)</text>
+    <text x="28" y="126"><tspan fill="#4fc3f7">question&gt; </tspan><tspan fill="#d8dde1">What band does the Orion-7 ground station transmit on?</tspan></text>
+    <text x="28" y="160"><tspan fill="#ff7043">LLM only&gt; </tspan><tspan fill="#ff7043">I don't know.</tspan></text>
+    <text x="28" y="194" fill="#9a6cff">  SAGE recall  0.74  <tspan fill="#6b7177">Orion-7 transmits telemetry on the 2.4 GHz band</tspan></text>
+    <text x="28" y="228"><tspan fill="#27c93f">LLM+SAGE&gt; </tspan><tspan fill="#27c93f">The Orion-7 station transmits on the 2.4 gigahertz band.</tspan></text>
+    <text x="28" y="270" fill="#6b7177">  +8 facts retained | 0 forgotten | including the FIRST one taught</text>
+  </g>
+  <circle cx="744" cy="358" r="22" fill="#000000" opacity="0.5"/>
+  <circle cx="744" cy="358" r="22" fill="none" stroke="#26c6da" stroke-width="1.5"/>
+  <path d="M737 347 L758 358 L737 369 Z" fill="#26c6da"/>
+  <line x1="4" y1="404" x2="796" y2="404" stroke="#242424"/>
+  <text x="28" y="432" font-size="15" font-weight="700" fill="#26c6da">Case study 3 — Continual learning, no retraining</text>
+  <text x="28" y="449" font-size="12" fill="#8a8a8a">Teach facts live; LLM alone fails, LLM+SAGE answers, nothing forgotten.</text>
+</svg>

@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "SAGE: A Weight-Free Bounded Associative Memory for AI Agents"
+abstract: >-
+  A weight-free, gradient-free associative memory that stores knowledge as
+  embedding vectors at fixed slots, retrieves by cosine similarity, and writes
+  with local Hebbian updates. It beats gradient-trained neural networks on
+  catastrophic forgetting and ties simple non-parametric methods (nearest-class-
+  mean, per-class k-means); the 3-D geometry is an addressing/visualization layer,
+  not the computational mechanism.
+type: software
+version: "3.0"
+date-released: 2026-06-19
+license: MIT
+repository-code: "https://github.com/Ivelin2022/sage"
+keywords:
+  - associative memory
+  - continual learning
+  - catastrophic forgetting
+  - gradient-free learning
+  - Hebbian learning
+  - modern Hopfield networks
+  - honest negative results
+# Edit or remove the author block as you wish.
+authors:
+  - family-names: Likov
+    given-names: Ivelin

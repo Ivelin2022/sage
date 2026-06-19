@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Regenerable data caches / large embeddings (NOT results/, which the README cites)
+SPHERE/sage_sphere/data/
+SPHERE/sage_sphere/demos/data/
+analogy_cache/
+data/glove.6B.zip
+data/*.txt
+
+# Archives
+*.zip
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

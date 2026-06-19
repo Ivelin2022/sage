@@ -1,0 +1,51 @@
+{
+  "stage": 1,
+  "n_words": 3000,
+  "n_points": 4096,
+  "cube_side": 16,
+  "retrieval_top1_self_pct": 100.0,
+  "duplicate_embed_ties": 0,
+  "gate_pass": true,
+  "gate": "storage integrity (self-retrieval >= 99%); no-regression vs cube holds by construction (exact cosine ignores positions)",
+  "spearman_continuous_3d": 0.26908813625471345,
+  "spearman_sphere_geodesic_snapped": 0.26861457236723835,
+  "spearman_cube_euclidean_snapped": 0.23016913858919433,
+  "spearman_note": "snapped sphere/cube confounded by metric + lattice resolution; continuous is the clean measure",
+  "positional_recall_at10_pct": 10.180000000000001,
+  "collisions": {
+    "n_points": 4096,
+    "n_items": 3000,
+    "points_used": 1921,
+    "points_collided": 729,
+    "max_bucket": 9,
+    "mean_nonempty_bucket": 1.561686635017395,
+    "pct_items_in_collision": 60.266666666666666
+  },
+  "neighbor_examples": {
+    "paris": [
+      "france",
+      "cities",
+      "city"
+    ],
+    "king": [
+      "kingdom",
+      "queen",
+      "prince"
+    ],
+    "water": [
+      "waters",
+      "swam",
+      "swimming"
+    ],
+    "germany": [
+      "german",
+      "berlin",
+      "de"
+    ],
+    "happy": [
+      "positive",
+      "peaceful",
+      "relief"
+    ]
+  }
+}

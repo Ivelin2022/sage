@@ -1,0 +1,446 @@
+{
+  "stage": 4,
+  "verdict": "NO-GO",
+  "k_cand": 50,
+  "primary": "isotropic",
+  "results": {
+    "isotropic": {
+      "analogy": {
+        "A": {
+          "h1": 740,
+          "h5": 836,
+          "n": 870,
+          "cat": {
+            "capital-common-countries": {
+              "n": 132,
+              "h1_pct": 85.60606060606061,
+              "h5_pct": 100.0
+            },
+            "capital-world": {
+              "n": 200,
+              "h1_pct": 75.0,
+              "h5_pct": 86.0
+            },
+            "family": {
+              "n": 132,
+              "h1_pct": 75.75757575757575,
+              "h5_pct": 95.45454545454545
+            },
+            "gram3-comparative": {
+              "n": 20,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram5-present-participle": {
+              "n": 56,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram6-nationality-adjective": {
+              "n": 110,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram7-past-tense": {
+              "n": 200,
+              "h1_pct": 85.5,
+              "h5_pct": 100.0
+            },
+            "gram8-plural": {
+              "n": 20,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            }
+          },
+          "hit1_pct": 85.05747126436782,
+          "hit5_pct": 96.0919540229885,
+          "hit1_macro_pct": 90.23295454545455
+        },
+        "Aknn": {
+          "h1": 744,
+          "h5": 842,
+          "n": 870,
+          "cat": {
+            "capital-common-countries": {
+              "n": 132,
+              "h1_pct": 85.60606060606061,
+              "h5_pct": 100.0
+            },
+            "capital-world": {
+              "n": 200,
+              "h1_pct": 76.0,
+              "h5_pct": 88.5
+            },
+            "family": {
+              "n": 132,
+              "h1_pct": 77.27272727272727,
+              "h5_pct": 96.21212121212122
+            },
+            "gram3-comparative": {
+              "n": 20,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram5-present-participle": {
+              "n": 56,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram6-nationality-adjective": {
+              "n": 110,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram7-past-tense": {
+              "n": 200,
+              "h1_pct": 85.5,
+              "h5_pct": 100.0
+            },
+            "gram8-plural": {
+              "n": 20,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            }
+          },
+          "hit1_pct": 85.51724137931035,
+          "hit5_pct": 96.7816091954023,
+          "hit1_macro_pct": 90.54734848484848
+        },
+        "Ap": {
+          "h1": 644,
+          "h5": 721,
+          "n": 870,
+          "cat": {
+            "capital-common-countries": {
+              "n": 132,
+              "h1_pct": 83.33333333333333,
+              "h5_pct": 91.66666666666667
+            },
+            "capital-world": {
+              "n": 200,
+              "h1_pct": 40.5,
+              "h5_pct": 53.0
+            },
+            "family": {
+              "n": 132,
+              "h1_pct": 66.66666666666667,
+              "h5_pct": 91.66666666666667
+            },
+            "gram3-comparative": {
+              "n": 20,
+              "h1_pct": 80.0,
+              "h5_pct": 100.0
+            },
+            "gram5-present-participle": {
+              "n": 56,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram6-nationality-adjective": {
+              "n": 110,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram7-past-tense": {
+              "n": 200,
+              "h1_pct": 85.5,
+              "h5_pct": 85.5
+            },
+            "gram8-plural": {
+              "n": 20,
+              "h1_pct": 60.0,
+              "h5_pct": 80.0
+            }
+          },
+          "hit1_pct": 74.02298850574712,
+          "hit5_pct": 82.8735632183908,
+          "hit1_macro_pct": 77.0
+        },
+        "B": {
+          "h1": 741,
+          "h5": 796,
+          "n": 870,
+          "cat": {
+            "capital-common-countries": {
+              "n": 132,
+              "h1_pct": 91.66666666666667,
+              "h5_pct": 100.0
+            },
+            "capital-world": {
+              "n": 200,
+              "h1_pct": 57.5,
+              "h5_pct": 67.5
+            },
+            "family": {
+              "n": 132,
+              "h1_pct": 83.33333333333333,
+              "h5_pct": 93.18181818181819
+            },
+            "gram3-comparative": {
+              "n": 20,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram5-present-participle": {
+              "n": 56,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram6-nationality-adjective": {
+              "n": 110,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram7-past-tense": {
+              "n": 200,
+              "h1_pct": 94.5,
+              "h5_pct": 100.0
+            },
+            "gram8-plural": {
+              "n": 20,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            }
+          },
+          "hit1_pct": 85.17241379310344,
+          "hit5_pct": 91.49425287356321,
+          "hit1_macro_pct": 90.875
+        },
+        "_reach_in_knn_pct": 100.0
+      },
+      "multihop": {
+        "n": 34,
+        "A_pct": 61.76470588235294,
+        "Bglobal_pct": 38.23529411764706,
+        "B_pct": 70.58823529411765,
+        "B_hop1_country_pct": 73.52941176470588,
+        "continent_in_knn_pct": 73.52941176470588,
+        "n_train_countries": 33
+      }
+    },
+    "raw": {
+      "analogy": {
+        "A": {
+          "h1": 748,
+          "h5": 839,
+          "n": 870,
+          "cat": {
+            "capital-common-countries": {
+              "n": 132,
+              "h1_pct": 85.60606060606061,
+              "h5_pct": 100.0
+            },
+            "capital-world": {
+              "n": 200,
+              "h1_pct": 76.0,
+              "h5_pct": 86.5
+            },
+            "family": {
+              "n": 132,
+              "h1_pct": 76.51515151515152,
+              "h5_pct": 96.96969696969697
+            },
+            "gram3-comparative": {
+              "n": 20,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram5-present-participle": {
+              "n": 56,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram6-nationality-adjective": {
+              "n": 110,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram7-past-tense": {
+              "n": 200,
+              "h1_pct": 88.0,
+              "h5_pct": 100.0
+            },
+            "gram8-plural": {
+              "n": 20,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            }
+          },
+          "hit1_pct": 85.97701149425288,
+          "hit5_pct": 96.4367816091954,
+          "hit1_macro_pct": 90.76515151515152
+        },
+        "Aknn": {
+          "h1": 749,
+          "h5": 848,
+          "n": 870,
+          "cat": {
+            "capital-common-countries": {
+              "n": 132,
+              "h1_pct": 85.60606060606061,
+              "h5_pct": 100.0
+            },
+            "capital-world": {
+              "n": 200,
+              "h1_pct": 76.0,
+              "h5_pct": 90.5
+            },
+            "family": {
+              "n": 132,
+              "h1_pct": 77.27272727272727,
+              "h5_pct": 97.72727272727273
+            },
+            "gram3-comparative": {
+              "n": 20,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram5-present-participle": {
+              "n": 56,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram6-nationality-adjective": {
+              "n": 110,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram7-past-tense": {
+              "n": 200,
+              "h1_pct": 88.0,
+              "h5_pct": 100.0
+            },
+            "gram8-plural": {
+              "n": 20,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            }
+          },
+          "hit1_pct": 86.0919540229885,
+          "hit5_pct": 97.47126436781609,
+          "hit1_macro_pct": 90.85984848484848
+        },
+        "Ap": {
+          "h1": 647,
+          "h5": 743,
+          "n": 870,
+          "cat": {
+            "capital-common-countries": {
+              "n": 132,
+              "h1_pct": 83.33333333333333,
+              "h5_pct": 100.0
+            },
+            "capital-world": {
+              "n": 200,
+              "h1_pct": 42.0,
+              "h5_pct": 53.0
+            },
+            "family": {
+              "n": 132,
+              "h1_pct": 66.66666666666667,
+              "h5_pct": 83.33333333333333
+            },
+            "gram3-comparative": {
+              "n": 20,
+              "h1_pct": 80.0,
+              "h5_pct": 100.0
+            },
+            "gram5-present-participle": {
+              "n": 56,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram6-nationality-adjective": {
+              "n": 110,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram7-past-tense": {
+              "n": 200,
+              "h1_pct": 85.5,
+              "h5_pct": 94.5
+            },
+            "gram8-plural": {
+              "n": 20,
+              "h1_pct": 60.0,
+              "h5_pct": 100.0
+            }
+          },
+          "hit1_pct": 74.36781609195403,
+          "hit5_pct": 85.40229885057471,
+          "hit1_macro_pct": 77.1875
+        },
+        "B": {
+          "h1": 740,
+          "h5": 798,
+          "n": 870,
+          "cat": {
+            "capital-common-countries": {
+              "n": 132,
+              "h1_pct": 91.66666666666667,
+              "h5_pct": 100.0
+            },
+            "capital-world": {
+              "n": 200,
+              "h1_pct": 57.0,
+              "h5_pct": 64.0
+            },
+            "family": {
+              "n": 132,
+              "h1_pct": 83.33333333333333,
+              "h5_pct": 100.0
+            },
+            "gram3-comparative": {
+              "n": 20,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram5-present-participle": {
+              "n": 56,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram6-nationality-adjective": {
+              "n": 110,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            },
+            "gram7-past-tense": {
+              "n": 200,
+              "h1_pct": 94.5,
+              "h5_pct": 100.0
+            },
+            "gram8-plural": {
+              "n": 20,
+              "h1_pct": 100.0,
+              "h5_pct": 100.0
+            }
+          },
+          "hit1_pct": 85.05747126436782,
+          "hit5_pct": 91.72413793103448,
+          "hit1_macro_pct": 90.8125
+        },
+        "_reach_in_knn_pct": 100.0
+      },
+      "multihop": {
+        "n": 34,
+        "A_pct": 58.8235294117647,
+        "Bglobal_pct": 35.294117647058826,
+        "B_pct": 64.70588235294117,
+        "B_hop1_country_pct": 73.52941176470588,
+        "continent_in_knn_pct": 73.52941176470588,
+        "n_train_countries": 33
+      }
+    }
+  },
+  "gate_numbers": {
+    "analogy_hit1_B": 85.17241379310344,
+    "analogy_hit1_Aknn": 85.51724137931035,
+    "analogy_hit1_A": 85.05747126436782,
+    "analogy_clean_B_minus_Aknn": -0.3448275862069039,
+    "multihop_A": 61.76470588235294,
+    "multihop_Bglobal": 38.23529411764706,
+    "multihop_B_knn": 70.58823529411765,
+    "multihop_clean_Bg_minus_A": -23.529411764705884
+  }
+}

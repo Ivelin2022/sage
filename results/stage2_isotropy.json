@@ -1,0 +1,75 @@
+{
+  "stage": 2,
+  "method": "all-but-the-top",
+  "n_words": 3000,
+  "raw_mean_abs_cosine": 0.43313950300216675,
+  "best_D": 1,
+  "gate_pass": true,
+  "jaccard_floor": 0.5,
+  "aniso_drop_required": 0.1,
+  "sweep": [
+    {
+      "D": 0,
+      "mean_abs_cosine": 0.43313950300216675,
+      "mean_vector_norm": 0.6584725975990295,
+      "top1_pc_variance": 0.022100819274783134,
+      "self_retrieval_pct": 100.0,
+      "neighbor_jaccard_vs_raw": 1.0,
+      "continuous_3d_spearman": 0.273676760333999
+    },
+    {
+      "D": 1,
+      "mean_abs_cosine": 0.04800567775964737,
+      "mean_vector_norm": 0.003637634916231036,
+      "top1_pc_variance": 0.0156570877879858,
+      "self_retrieval_pct": 100.0,
+      "neighbor_jaccard_vs_raw": 0.7223508109537454,
+      "continuous_3d_spearman": 0.3213108297140059
+    },
+    {
+      "D": 2,
+      "mean_abs_cosine": 0.04748144745826721,
+      "mean_vector_norm": 0.0035007945261895657,
+      "top1_pc_variance": 0.014669297263026237,
+      "self_retrieval_pct": 100.0,
+      "neighbor_jaccard_vs_raw": 0.7083698267962879,
+      "continuous_3d_spearman": 0.30454066691275883
+    },
+    {
+      "D": 3,
+      "mean_abs_cosine": 0.047127388417720795,
+      "mean_vector_norm": 0.003666131291538477,
+      "top1_pc_variance": 0.013971909880638123,
+      "self_retrieval_pct": 100.0,
+      "neighbor_jaccard_vs_raw": 0.6981535958594692,
+      "continuous_3d_spearman": 0.2920967247122638
+    },
+    {
+      "D": 5,
+      "mean_abs_cosine": 0.04660956934094429,
+      "mean_vector_norm": 0.003523661755025387,
+      "top1_pc_variance": 0.012798496522009373,
+      "self_retrieval_pct": 100.0,
+      "neighbor_jaccard_vs_raw": 0.677503400738685,
+      "continuous_3d_spearman": 0.25429227869042287
+    },
+    {
+      "D": 7,
+      "mean_abs_cosine": 0.0464409664273262,
+      "mean_vector_norm": 0.003699997439980507,
+      "top1_pc_variance": 0.012314319610595703,
+      "self_retrieval_pct": 100.0,
+      "neighbor_jaccard_vs_raw": 0.6618456989633339,
+      "continuous_3d_spearman": 0.24773409613563055
+    },
+    {
+      "D": 10,
+      "mean_abs_cosine": 0.04631206393241882,
+      "mean_vector_norm": 0.003884547157213092,
+      "top1_pc_variance": 0.011290093883872032,
+      "self_retrieval_pct": 100.0,
+      "neighbor_jaccard_vs_raw": 0.6361824711236357,
+      "continuous_3d_spearman": 0.23892907360725002
+    }
+  ]
+}

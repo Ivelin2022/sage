@@ -1,0 +1,27 @@
+<svg viewBox="0 0 330 76" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">
+  <!-- mark: a memory lattice with an active 'recalled' neighbourhood -->
+  <g>
+    <!-- connecting lines from active centre to recalled neighbours -->
+    <g stroke="#26c6da" stroke-width="1.4" opacity="0.45">
+      <line x1="30" y1="38" x2="30" y2="16"/>
+      <line x1="30" y1="38" x2="30" y2="60"/>
+      <line x1="30" y1="38" x2="8"  y2="38"/>
+      <line x1="30" y1="38" x2="52" y2="38"/>
+    </g>
+    <!-- dim corner slots -->
+    <g fill="#1f5560">
+      <circle cx="8"  cy="16" r="3.5"/><circle cx="52" cy="16" r="3.5"/>
+      <circle cx="8"  cy="60" r="3.5"/><circle cx="52" cy="60" r="3.5"/>
+    </g>
+    <!-- recalled neighbourhood -->
+    <g fill="#4fc3f7">
+      <circle cx="30" cy="16" r="4"/><circle cx="30" cy="60" r="4"/>
+      <circle cx="8"  cy="38" r="4"/><circle cx="52" cy="38" r="4"/>
+    </g>
+    <!-- active slot -->
+    <circle cx="30" cy="38" r="6" fill="#26c6da"/>
+  </g>
+  <!-- wordmark -->
+  <text x="76" y="44" font-size="36" font-weight="700" fill="#f0f0f0" letter-spacing="2">SAGE</text>
+  <text x="77" y="62" font-size="11" fill="#8a8a8a" letter-spacing="0.5">weight-free memory for AI agents</text>
+</svg>

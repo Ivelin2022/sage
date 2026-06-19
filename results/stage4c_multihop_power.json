@@ -1,0 +1,38 @@
+{
+  "stage": "4c",
+  "verdict": "TIE / NOT SIGNIFICANT (cannot reject A == B)",
+  "k_cand": 50,
+  "train_frac": 0.3,
+  "n_boot": 10000,
+  "results": {
+    "isotropic": {
+      "n": 81,
+      "A_acc": 55.55555555555556,
+      "B_acc": 55.55555555555556,
+      "diff": 0.0,
+      "discordant_A_right_B_wrong": 18,
+      "discordant_A_wrong_B_right": 18,
+      "mcnemar_p": 1.0,
+      "boot_ci_lo": -13.580246913580252,
+      "boot_ci_hi": 14.814814814814813,
+      "cv_A_acc": 62.93103448275862,
+      "cv_B_acc": 52.58620689655172,
+      "cv_n": 116
+    },
+    "raw": {
+      "n": 81,
+      "A_acc": 66.66666666666666,
+      "B_acc": 51.85185185185185,
+      "diff": -14.81481481481481,
+      "discordant_A_right_B_wrong": 20,
+      "discordant_A_wrong_B_right": 8,
+      "mcnemar_p": 0.03569813817739487,
+      "boot_ci_lo": -27.160493827160497,
+      "boot_ci_hi": -2.4691358024691357,
+      "cv_A_acc": 58.620689655172406,
+      "cv_B_acc": 56.03448275862068,
+      "cv_n": 116
+    }
+  },
+  "note": "inference on single held-out split (valid independence); 5-fold CV reported descriptively only"
+}
